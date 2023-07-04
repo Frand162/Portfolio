@@ -10,7 +10,6 @@ import java.util.List;
 import model.entity.ViewListDisplay;
 
 /**
- * @author Hideaki Yabe
  * 従業員一覧画面表示のためにデータベースに接続するDAOクラス。
  */
 public class ViewListDAO {
