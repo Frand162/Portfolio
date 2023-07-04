@@ -13,7 +13,6 @@ import model.dao.UserDAO;
 
 /**
  * Servlet implementation class LoginChk
- * @author Yusuke Tanabe
  * 管理者ユーザーのログインをチェックするクラス。
  */
 @WebServlet("/LoginChk")
