@@ -1,7 +1,6 @@
 package model.entity;
 
 /**
- * @author Hideaki Yabe
  * 管理者ユーザーモデルクラス。
  */
 public class User {
