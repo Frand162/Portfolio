@@ -15,7 +15,6 @@ import model.entity.Employee;
 
 /**
  * Servlet implementation class EmployeeEdit
- * @author Hideaki Yabe
  * データベースに接続して編集した従業員情報を更新するクラス。
  */
 @WebServlet("/EditEmployee")
