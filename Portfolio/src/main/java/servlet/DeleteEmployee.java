@@ -14,7 +14,6 @@ import model.dao.EmployeeDAO;
 
 /**
  * Servlet implementation class EmployeeDelete
- * @author Kaori Masutani
  * データベースから従業員を削除するクラス。
  */
 @WebServlet("/DeleteEmployee")
