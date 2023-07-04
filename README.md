@@ -6,6 +6,7 @@
 
 
 管理者側
+
 create table m_user(
 	user_id varchar (24) not null,
 	password varchar (32) not null
@@ -14,7 +15,11 @@ create table m_user(
 insert into m_user(user_id , password) 
 values('管理者テストです', 'abcd1234');
 
+
+
+
 従業員側
+
 create table m_employee(
 employee_code int not null primary key,
 last_name varchar(20),
@@ -31,9 +36,18 @@ password varchar(20)
 INSERT INTO m_employee (employee_code, last_name, first_name, last_kana_Name, first_kana_Name, gender, birth_day, section_code, hire_date, password)
 VALUES (1, '本町', '太郎', 'ほんまち', 'たろう', 0, '1999-12-01', '1', '2023-06-01', 'tarou123');
 
+
+
+
+
 下記は従業員登録や部署を確認するときに使うデータベースです。
 
+
+
+
+
 従業員の部署
+
 create table m_section (
 section_code varchar(20) not null primary key,
 section_name varchar(20)
@@ -41,6 +55,8 @@ section_name varchar(20)
 
 insert into m_section(section_code , section_name)
 values('1' , '総務部');
+
+
 
 下記はタイムカードの記入やタイムシートの確認に使うデータベースです。
 
@@ -58,6 +74,11 @@ CREATE TABLE t_work_time (
     FOREIGN KEY (employee_code)
     REFERENCES m_employee (employee_code)
 );
+
+
+
+
+
 
 改善点
 ・ break_time（休憩時間　休憩入り＋休憩戻り)
