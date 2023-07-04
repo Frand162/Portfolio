@@ -1,7 +1,6 @@
 package model.entity;
 
 /**
- * @author Kaori Masutani
  * 従業員モデルクラス。
  */
 
