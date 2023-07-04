@@ -3,7 +3,6 @@ package model.entity;
 import java.util.Date;
 
 /**
- * @author Hideaki Yabe
  * 従業員一覧画面表示モデルクラス。
  */
 public class ViewListDisplay {
