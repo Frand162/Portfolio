@@ -14,7 +14,6 @@ import model.dao.AttendanceEmployeeDAO;
 
 /**
  * Servlet implementation class AttendanceTimeCard
- * @author Yusuke Tanabe
  *  打刻情報を受け取ってデータベースに反映させるクラス。
  */
 @WebServlet("/AttendanceTimeCard")
