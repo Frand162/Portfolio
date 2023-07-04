@@ -17,7 +17,6 @@ import model.entity.Section;
 
 /**
  * Servlet implementation class EmployeeGetSection
- * @author Hideaki Yabe
  * データベースに接続して全部署を取得するクラス。
  */
 @WebServlet("/GetSectionEmployee")
