@@ -11,7 +11,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class LogoutChk
- * @author Junpei Koyama
  * 管理者ユーザーのログアウトをチェックするクラス。
  */
 @WebServlet("/LogoutChk")
