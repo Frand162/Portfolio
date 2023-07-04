@@ -14,7 +14,6 @@ import model.dao.WorkTimeDAO;
 
 /**
  * Servlet implementation class AttendanceViewTimecard
- * @author Yoshiyuki Tonami
  * 月を受け取ってデータベースに接続して対応する出退勤時刻情報を画面に送るクラス。
  */
 @WebServlet("/AttendanceViewTimecard")
