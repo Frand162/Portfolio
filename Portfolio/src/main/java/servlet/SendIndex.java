@@ -11,7 +11,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class SendIndex
- * @author Yoshiyuki Tonami
  * indexページに遷移させるクラス。
  */
 @WebServlet("/SendIndex")
