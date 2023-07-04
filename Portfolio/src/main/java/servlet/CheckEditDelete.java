@@ -11,7 +11,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Servlet implementation class CheckEditDelete
- * @author Hideaki Yabe
  * 削除処理か編集処理か判断するクラス。
  */
 @WebServlet("/CheckEditDelete")
