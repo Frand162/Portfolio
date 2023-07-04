@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 
 /**
- * @author Yoshiyuki Tonami
  * 出退勤時刻管理モデルクラス。
  */
 public class WorkTime {
