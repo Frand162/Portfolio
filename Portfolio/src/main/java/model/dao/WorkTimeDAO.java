@@ -13,7 +13,6 @@ import java.util.List;
 import model.entity.WorkTime;
 
 /**
- * @author Yoshiyuki Tonami
  * 画面表示のために出退勤時刻管理データベースと繋ぐDAOクラス。
  */
 public class WorkTimeDAO {
