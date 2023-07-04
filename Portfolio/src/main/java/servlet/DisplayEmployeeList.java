@@ -16,7 +16,6 @@ import model.entity.ViewListDisplay;
 
 /**
  * Servlet implementation class EmployeeListDisplay
- * @author Hideaki Yabe
  * データベースに接続して従業員情報全件一覧を取得するクラス。
  */
 @WebServlet("/DisplayEmployeeList")
