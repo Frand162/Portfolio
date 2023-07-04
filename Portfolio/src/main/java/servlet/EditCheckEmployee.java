@@ -18,7 +18,6 @@ import model.entity.Section;
 
 /**
  * Servlet implementation class EmployeeEdit
- * @author Yoshiyuki Tonami
  * データベースに接続して従業員コードに対応する従業員情報を送る。
  */
 @WebServlet("/EditCheckEmployee")
