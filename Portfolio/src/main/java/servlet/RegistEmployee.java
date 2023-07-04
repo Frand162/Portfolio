@@ -13,7 +13,6 @@ import model.dao.EmployeeDAO;
 
 /**
  * Servlet implementation class EmployeeRegist
- * @author Hideaki Yabe
  * 従業員新規登録クラス。
  */
 @WebServlet("/RegistEmployee")
