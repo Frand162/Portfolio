@@ -11,7 +11,6 @@ import model.entity.Employee;
 import model.entity.Section;
 
 /**
- * @author Yusuke Tanabe
  * 従業員データベースと繋ぐDAOクラス。
  */
 public class EmployeeDAO {
