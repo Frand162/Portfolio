@@ -31,7 +31,7 @@ public class SendIndex extends HttpServlet {
 		HttpSession session = request.getSession();
 		session.removeAttribute("loginUserId");
 		session.removeAttribute("employeeCode");
-		response.sendRedirect("../sue");
+		response.sendRedirect("../Portfolio");
 	}
 
 	/**
