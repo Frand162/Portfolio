@@ -1,7 +1,6 @@
 package model.entity;
 
 /**
- * @author Hideaki Yabe
  * 部署モデルクラス。
  */
 public class Section {
