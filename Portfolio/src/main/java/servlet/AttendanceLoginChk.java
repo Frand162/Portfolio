@@ -14,7 +14,6 @@ import model.dao.AttendanceEmployeeDAO;
 
 /**
  * Servlet implementation class AttendenceLoginChk
- * @author Yoshiyuki Tonami
  * 従業員のログインをチェックするクラス。
  */
 @WebServlet("/AttendanceLoginChk")
