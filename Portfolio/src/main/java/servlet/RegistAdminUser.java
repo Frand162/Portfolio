@@ -13,7 +13,6 @@ import model.dao.UserDAO;
 
 /**
  * Servlet implementation class AdminUserRegist
- * @author Hideaki Yabe
  * 管理者ユーザー新規登録クラス。
  */
 @WebServlet("/RegistAdminUser")
