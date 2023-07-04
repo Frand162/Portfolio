@@ -19,7 +19,6 @@ import model.entity.WorkTime;
 
 /**
  * Servlet implementation class AttendanceSelectTimesheet
- * @author Yoshiyuki Tonami
  * 月を受け取って対応する出退勤時刻情報を渡すクラス。
  */
 @WebServlet("/AttendanceSelectTimesheet")
